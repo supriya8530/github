@@ -1,0 +1,38 @@
+xample – Very Simple
+
+Suppose:
+
+You have main branch
+
+You create a new branch → feature1
+
+You write some code in feature1
+
+Now you want that code in main
+
+You will run:
+
+git checkout main
+git merge feature1
+
+
+This puts feature1 branch work into main branch.
+
+🔥 Merge Conflict (Important)
+
+Sometimes Git cannot combine changes automatically → this is called merge conflict.
+
+Marathi:
+दोन्ही branch मध्ये एकाच file च्या एकाच line वर बदल केले असतील तर Git confuse होतो → याला merge conflict म्हणतात.
+
+Then you must manually fix it.
+
+📌 Merging in GitHub (GUI)
+
+Create Pull Request (PR)
+
+Review
+
+Click Merge pull request
+
+Work goes into main branch
